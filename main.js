@@ -4,7 +4,6 @@ var api_url = 'https://script.googleusercontent.com/a/macros/o365.nagano-ngn.ed.
 fetch(api_url,{
     method: 'GET',
     headers: {
-    'Content-Type': 'application/x-www-form-urlencoded',
     'Access-Control-Allow-Origin': '*'
 },
 })
