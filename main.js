@@ -2,7 +2,7 @@
 var api_url = 'https://script.google.com/a/macros/o365.nagano-ngn.ed.jp/s/AKfycbx7luIrFHlKdMQTBPxajKY6Pl5I025SCNdLemkF7EZeTsm5m6vXvzCdUVfQYtDVHLKKHA/exec'; //生成したAPIのURLを指定
 
 fetch(api_url,{
-    method: 'POST',
+    method: 'GET',
     headers: {
     'Access-Control-Allow-Origin': '*'
 },
