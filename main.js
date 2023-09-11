@@ -1,5 +1,5 @@
 
-var api_url = 'https://script.googleusercontent.com/a/macros/o365.nagano-ngn.ed.jp/echo?user_content_key=XGAjF3PvknLa-NvHv3QCW2cIVrwQCg1BqDDfa0pwUIazoYhZWh_ApVS2rbL1Hd68joWhFk8Ashr4yKEGNeQwiRctjyhjLDKaOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKA0S0bATxhH2qHj9KzWNCAMNi3dJHZDj_lLhyHCd5hHa7v11V1qbzc9JXqU7IJh1mnTvrcr5M2tb2LpnA4oGQouXKYJzI3SeXsmyx3Mk5w6r-yq5zYdQhLa2395z9gMxhVj8by5JnHDhpqBASd6hfbB&lib=MT5uBc16A0LjHeW9KTBH5HkdFSUckXPYm'; //生成したAPIのURLを指定
+var api_url = 'https://script.google.com/a/macros/o365.nagano-ngn.ed.jp/s/AKfycbx7luIrFHlKdMQTBPxajKY6Pl5I025SCNdLemkF7EZeTsm5m6vXvzCdUVfQYtDVHLKKHA/exec'; //生成したAPIのURLを指定
 
 fetch(api_url,{
     method: 'GET',
