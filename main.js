@@ -4,7 +4,7 @@ var api_url = 'https://script.google.com/a/macros/o365.nagano-ngn.ed.jp/s/AKfycb
 fetch(api_url,{
     method: 'GET',
     headers: {
-    'Access-Control-Allow-Origin': '*'
+        'Content-Type': 'application/x-www-form-urlencoded',
 },
 })
 .then(function (fetch_data) {
