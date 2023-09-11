@@ -3,6 +3,7 @@ var api_url = 'https://script.google.com/a/macros/o365.nagano-ngn.ed.jp/s/AKfycb
 
 fetch(api_url,{
     method: 'GET',
+    mode: 'no-cors',
     headers: {
     'Access-Control-Allow-Origin': '*'
 },
