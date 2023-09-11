@@ -6,7 +6,7 @@ fetch(api_url,{
     mode: 'no-cors',
     headers: {
     'Access-Control-Allow-Origin': '*'
-},
+  },
 })
 .then(function (fetch_data) {
   return fetch_data.json();
